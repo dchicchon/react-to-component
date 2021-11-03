@@ -1,0 +1,32 @@
+{
+  "name": "@dchicchon/react-to-component",
+  "version": "1.0.0",
+  "description": "Turn any react app into a component",
+  "main": "index.js",
+  "bin": {
+    "react-to-component": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchicchon/react_env.git"
+  },
+  "keywords": [
+    "react",
+    "env"
+  ],
+  "author": "dchicchon",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "chokidar": "^3.5.2",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.9",
+    "@types/node": "^16.7.1",
+    "@types/shelljs": "^0.8.9"
+  }
+}
