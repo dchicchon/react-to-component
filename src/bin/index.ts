@@ -1,6 +1,6 @@
-#! /usr/bin / env node
+#! /usr/bin/env node
 
-import chalk from "chalk";
+import chalk from 'chalk'
 import { Commands } from './commands'
 
 // Run all commands by here
@@ -14,7 +14,7 @@ switch (command) {
             chalk.underline.cyan(`\nReact-to-Component: Turn React Applications to components!\n\n`) +
             chalk.cyan(
                 `Try one of the following commands:\n` +
-                chalk.green(`export`) + `: begins the export flow for your react app \n`
+                chalk.green(`export-app`) + `: begins the export flow for your react app \n`
             )
         )
         break;

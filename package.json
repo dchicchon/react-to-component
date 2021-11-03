@@ -14,8 +14,7 @@
     "url": "git+https://github.com/dchicchon/react_env.git"
   },
   "keywords": [
-    "react",
-    "env"
+    "react"
   ],
   "author": "dchicchon",
   "license": "ISC",
@@ -26,7 +25,7 @@
   },
   "devDependencies": {
     "@tsconfig/node12": "^1.0.9",
-    "@types/node": "^16.7.1",
+    "@types/node": "^16.11.6",
     "@types/shelljs": "^0.8.9"
   }
 }
